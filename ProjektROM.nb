@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    728336,      14742]
-NotebookOptionsPosition[    722296,      14632]
-NotebookOutlinePosition[    722829,      14651]
-CellTagsIndexPosition[    722786,      14648]
+NotebookDataLength[    730788,      14772]
+NotebookOptionsPosition[    724786,      14663]
+NotebookOutlinePosition[    725280,      14681]
+CellTagsIndexPosition[    725237,      14678]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5157,10 +5157,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$}], FrameStyle -> 
       None, ImageMargins -> 0, FrameMargins -> 0, Alignment -> Top, 
       ImageSize -> {Automatic, 15}], FontSize -> 1], 
-    TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
-    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-    "88e3deac-eae6-4cb9-98ad-402e5b997130"][{15, 
-      Key["TEAM"]}, "Item", False]}, 
+    TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = Null}, 
     DynamicWrapperBox[
      DynamicBox[ToBoxes[
        Dataset`DatasetContent[
@@ -7677,10 +7674,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$}], FrameStyle -> 
       None, ImageMargins -> 0, FrameMargins -> 0, Alignment -> Top, 
       ImageSize -> {Automatic, 15}], FontSize -> 1], 
-    TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
-    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-    "8354dac0-bbd1-47af-a4c8-f497c14c142d"][{1, 
-      Key["TEAM"]}, "Item", False]}, 
+    TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = Null}, 
     DynamicWrapperBox[
      DynamicBox[ToBoxes[
        Dataset`DatasetContent[
@@ -14490,31 +14484,46 @@ Cell[BoxData[
        "\"\<Description\>\"", "\[Rule]", 
         "\"\<Vnesite ime ekipe, za katero \[ZHacek]elite prikaz. Po \
 potrditvenem gumbu se bo prikazal graf, ki bo prikazal povpre\[CHacek]no \
-\[SHacek]tevilo to\[CHacek]k na tekmo, ki jih je ekipa dosegla v \
-sezoni.\>\""}], ",", 
+\[SHacek]tevilo to\[CHacek]k na tekmo, ki jih je ekipa dosegla v sezoni. \
+Ekipe: Atlanta Hawks, Boston Celtics, Brooklyn Nets, Charlotte Hornets, \
+Chicago Bulls, Cleveland Cavaliers, Dallas Mavericks, Denver Nuggets, Detroit \
+Pistons, Golden State Warriors, Houston Rockets, Indiana Pacers, LA Clippers, \
+Los Angeles Lakers, Memphis Grizzlies, Miami Heat, Milwaukee Bucks, Minnesota \
+Timberwolves, New Orleans Pelicans, New York Knicks, Oklahoma City Thunder, \
+Orlando Magic, Philadelphia 76ers, Phoenix Suns, Portland Trail Blazers, \
+Sacramento Kings, San Antonio Spurs, Toronto Raptors, Utah Jazz, Washington \
+Wizards\n\>\""}], ",", 
        RowBox[{"\"\<SubmitLabel\>\"", "\[Rule]", "\"\<Potrdi\>\""}]}], 
       "|>"}]}]}], "]"}]}]], "Input",
- CellChangeTimes->{{3.838616909865456*^9, 3.838617117401535*^9}},
+ CellChangeTimes->{{3.838616909865456*^9, 3.838617117401535*^9}, {
+   3.8386341546399035`*^9, 3.8386341591532745`*^9}, 3.838634314868337*^9},
  CellLabel->
-  "In[214]:=",ExpressionUUID->"8f4a50eb-3427-4d69-9cf4-e9b2b19415a9"],
+  "In[217]:=",ExpressionUUID->"8f4a50eb-3427-4d69-9cf4-e9b2b19415a9"],
 
 Cell[BoxData[
  InterpretationBox[
   DynamicModuleBox[{Forms`FormPage`PackagePrivate`temp$$ = Association[
-   "Ekipa" -> Association["Interpreter" -> "", "Input" -> "Boston Celtics"]], 
-   Forms`FormPage`PackagePrivate`vals$$ = Association[
-   "Ekipa" -> "Boston Celtics"], Forms`FormPage`PackagePrivate`valid$$ = True,
-    Forms`FormPage`PackagePrivate`form2$$ = FormObject[
-    Association[
-    "Ekipa" -> Association["Interpreter" -> "", "Input" -> "Boston Celtics"]], 
-    Association["Ekipa" -> "Boston Celtics"], AppearanceRules -> 
+   "Ekipa" -> Association["Interpreter" -> "", "Input" -> ""]], 
+   Forms`FormPage`PackagePrivate`vals$$ = Association[], 
+   Forms`FormPage`PackagePrivate`valid$$ = False, 
+   Forms`FormPage`PackagePrivate`form2$$ = FormObject[
+    Association["Ekipa" -> Association["Interpreter" -> ""]], 
+    Association[], AppearanceRules -> 
     Association[
      "Title" -> "To\[CHacek]ke na tekmo ekipe skozi zadnjih 10 let", 
       "Description" -> 
       "Vnesite ime ekipe, za katero \[ZHacek]elite prikaz. Po potrditvenem \
 gumbu se bo prikazal graf, ki bo prikazal povpre\[CHacek]no \[SHacek]tevilo \
-to\[CHacek]k na tekmo, ki jih je ekipa dosegla v sezoni.", "SubmitLabel" -> 
-      "Potrdi"]], Forms`FormPage`PackagePrivate`valid2$$}, 
+to\[CHacek]k na tekmo, ki jih je ekipa dosegla v sezoni. Ekipe: Atlanta \
+Hawks, Boston Celtics, Brooklyn Nets, Charlotte Hornets, Chicago Bulls, \
+Cleveland Cavaliers, Dallas Mavericks, Denver Nuggets, Detroit Pistons, \
+Golden State Warriors, Houston Rockets, Indiana Pacers, LA Clippers, Los \
+Angeles Lakers, Memphis Grizzlies, Miami Heat, Milwaukee Bucks, Minnesota \
+Timberwolves, New Orleans Pelicans, New York Knicks, Oklahoma City Thunder, \
+Orlando Magic, Philadelphia 76ers, Phoenix Suns, Portland Trail Blazers, \
+Sacramento Kings, San Antonio Spurs, Toronto Raptors, Utah Jazz, Washington \
+Wizards\n", "SubmitLabel" -> "Potrdi"]], 
+   Forms`FormPage`PackagePrivate`valid2$$}, 
    DynamicBox[ToBoxes[
      With[{Forms`FormPage`PackagePrivate`formpane$ = Panel[
          Forms`getFormLayout[
@@ -14535,8 +14544,15 @@ to\[CHacek]k na tekmo, ki jih je ekipa dosegla v sezoni.", "SubmitLabel" ->
                  "Description" -> 
                 "Vnesite ime ekipe, za katero \[ZHacek]elite prikaz. Po \
 potrditvenem gumbu se bo prikazal graf, ki bo prikazal povpre\[CHacek]no \
-\[SHacek]tevilo to\[CHacek]k na tekmo, ki jih je ekipa dosegla v sezoni.", 
-                "SubmitLabel" -> "Potrdi"]}]]]], 
+\[SHacek]tevilo to\[CHacek]k na tekmo, ki jih je ekipa dosegla v sezoni. \
+Ekipe: Atlanta Hawks, Boston Celtics, Brooklyn Nets, Charlotte Hornets, \
+Chicago Bulls, Cleveland Cavaliers, Dallas Mavericks, Denver Nuggets, Detroit \
+Pistons, Golden State Warriors, Houston Rockets, Indiana Pacers, LA Clippers, \
+Los Angeles Lakers, Memphis Grizzlies, Miami Heat, Milwaukee Bucks, Minnesota \
+Timberwolves, New Orleans Pelicans, New York Knicks, Oklahoma City Thunder, \
+Orlando Magic, Philadelphia 76ers, Phoenix Suns, Portland Trail Blazers, \
+Sacramento Kings, San Antonio Spurs, Toronto Raptors, Utah Jazz, Washington \
+Wizards\n", "SubmitLabel" -> "Potrdi"]}]]]], 
        Forms`FormPage`PackagePrivate`resultpane$ = Framed[
          If[
          Forms`FormPage`PackagePrivate`valid$$ = 
@@ -14578,10 +14594,17 @@ potrditvenem gumbu se bo prikazal graf, ki bo prikazal povpre\[CHacek]no \
                    "Description" -> 
                    "Vnesite ime ekipe, za katero \[ZHacek]elite prikaz. Po \
 potrditvenem gumbu se bo prikazal graf, ki bo prikazal povpre\[CHacek]no \
-\[SHacek]tevilo to\[CHacek]k na tekmo, ki jih je ekipa dosegla v sezoni.", 
-                   "SubmitLabel" -> "Potrdi"]}]]}], Alignment -> Right]]}]]]],
-      StandardForm],
-    ImageSizeCache->{1001.4, {268.5, 273.3}},
+\[SHacek]tevilo to\[CHacek]k na tekmo, ki jih je ekipa dosegla v sezoni. \
+Ekipe: Atlanta Hawks, Boston Celtics, Brooklyn Nets, Charlotte Hornets, \
+Chicago Bulls, Cleveland Cavaliers, Dallas Mavericks, Denver Nuggets, Detroit \
+Pistons, Golden State Warriors, Houston Rockets, Indiana Pacers, LA Clippers, \
+Los Angeles Lakers, Memphis Grizzlies, Miami Heat, Milwaukee Bucks, Minnesota \
+Timberwolves, New Orleans Pelicans, New York Knicks, Oklahoma City Thunder, \
+Orlando Magic, Philadelphia 76ers, Phoenix Suns, Portland Trail Blazers, \
+Sacramento Kings, San Antonio Spurs, Toronto Raptors, Utah Jazz, Washington \
+Wizards\n", "SubmitLabel" -> "Potrdi"]}]]}], Alignment -> Right]]}]]]], 
+     StandardForm],
+    ImageSizeCache->{4201.2, {103.2, 108.}},
     TrackedSymbols:>{Forms`FormPage`PackagePrivate`vals$$}],
    DynamicModuleValues:>{}],
   FormPage[
@@ -14593,15 +14616,22 @@ potrditvenem gumbu se bo prikazal graf, ki bo prikazal povpre\[CHacek]no \
       "Description" -> 
       "Vnesite ime ekipe, za katero \[ZHacek]elite prikaz. Po potrditvenem \
 gumbu se bo prikazal graf, ki bo prikazal povpre\[CHacek]no \[SHacek]tevilo \
-to\[CHacek]k na tekmo, ki jih je ekipa dosegla v sezoni.", "SubmitLabel" -> 
-      "Potrdi"]], $CellContext`graftock[
+to\[CHacek]k na tekmo, ki jih je ekipa dosegla v sezoni. Ekipe: Atlanta \
+Hawks, Boston Celtics, Brooklyn Nets, Charlotte Hornets, Chicago Bulls, \
+Cleveland Cavaliers, Dallas Mavericks, Denver Nuggets, Detroit Pistons, \
+Golden State Warriors, Houston Rockets, Indiana Pacers, LA Clippers, Los \
+Angeles Lakers, Memphis Grizzlies, Miami Heat, Milwaukee Bucks, Minnesota \
+Timberwolves, New Orleans Pelicans, New York Knicks, Oklahoma City Thunder, \
+Orlando Magic, Philadelphia 76ers, Phoenix Suns, Portland Trail Blazers, \
+Sacramento Kings, San Antonio Spurs, Toronto Raptors, Utah Jazz, Washington \
+Wizards\n", "SubmitLabel" -> "Potrdi"]], $CellContext`graftock[
     Slot["Ekipa"]]& ],
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
- CellChangeTimes->{3.83861712164435*^9},
+ CellChangeTimes->{3.83861712164435*^9, 3.8386343710458403`*^9},
  CellLabel->
-  "Out[214]=",ExpressionUUID->"49c1d63f-1be4-44e0-97d9-c27ab93bc593"]
+  "Out[217]=",ExpressionUUID->"5ad90e4b-5545-4a0d-9602-174d8c415e5e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -14611,28 +14641,28 @@ Cell[BoxData[
   RowBox[{"obrazec", ",", " ", 
    RowBox[{"Permissions", "\[Rule]", "\"\<Public\>\""}]}], "]"}]], "Input",
  CellLabel->
-  "In[216]:=",ExpressionUUID->"6f8fd162-2c07-4314-b161-d613345bb795"],
+  "In[218]:=",ExpressionUUID->"6f8fd162-2c07-4314-b161-d613345bb795"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"CloudObject", "[", 
    TemplateBox[{
-    "\"https://www.wolframcloud.com/obj/57394923-2011-4459-9f2b-5ceaecc50681\"\
-", "https://www.wolframcloud.com/obj/57394923-2011-4459-9f2b-5ceaecc50681"},
+    "\"https://www.wolframcloud.com/obj/ac7462a7-6faf-4f4f-bc4a-fe3a3dcc85a5\"\
+", "https://www.wolframcloud.com/obj/ac7462a7-6faf-4f4f-bc4a-fe3a3dcc85a5"},
     "HyperlinkURL"], "]"}],
   CloudObject[
-  "https://www.wolframcloud.com/obj/57394923-2011-4459-9f2b-5ceaecc50681"],
+  "https://www.wolframcloud.com/obj/ac7462a7-6faf-4f4f-bc4a-fe3a3dcc85a5"],
   SelectWithContents->True]], "Output",
- CellChangeTimes->{3.838617184979444*^9, 3.838617288944668*^9},
+ CellChangeTimes->{3.838617184979444*^9, 3.838617288944668*^9, 
+  3.8386343890097218`*^9},
  CellLabel->
-  "Out[216]=",ExpressionUUID->"d3b187f3-6b55-4f57-b72f-f3787e798679"]
+  "Out[218]=",ExpressionUUID->"63679329-9c73-49a5-9545-9da021e4564d"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1152., 592.8},
-WindowMargins->{{Automatic, -5.399999999999864}, {
-  Automatic, -5.3999999999999995`}},
+WindowSize->{1141.2, 582.},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules->{
  "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 19, 2020)",
@@ -14668,79 +14698,79 @@ Cell[182544, 3705, 228, 4, 54, "Subsection",ExpressionUUID->"6a413c28-9704-4a8e-
 Cell[182775, 3711, 818, 14, 58, "Text",ExpressionUUID->"ad90842e-79cd-428a-9e34-d4d0e8c542b4"],
 Cell[CellGroupData[{
 Cell[183618, 3729, 2118, 50, 127, "Input",ExpressionUUID->"8a3ffebb-0fd9-439a-9fa5-2d742c8d2252"],
-Cell[185739, 3781, 73506, 1418, 600, "Output",ExpressionUUID->"7b533ebf-ce76-49a9-bae5-277140a81679"]
+Cell[185739, 3781, 73370, 1415, 600, "Output",ExpressionUUID->"7b533ebf-ce76-49a9-bae5-277140a81679"]
 }, Open  ]],
-Cell[259260, 5202, 5472, 151, 166, "Input",ExpressionUUID->"019cc2ac-689c-42d6-ab03-e58eff1a85ad"],
+Cell[259124, 5199, 5472, 151, 166, "Input",ExpressionUUID->"019cc2ac-689c-42d6-ab03-e58eff1a85ad"],
 Cell[CellGroupData[{
-Cell[264757, 5357, 402, 8, 28, "Input",ExpressionUUID->"4bc90a6b-c324-4404-a1a6-b37c5f8276ef"],
-Cell[265162, 5367, 25451, 563, 365, "Output",ExpressionUUID->"4d4b06d9-6d68-415d-85df-902b8f1ced43"]
+Cell[264621, 5354, 402, 8, 28, "Input",ExpressionUUID->"4bc90a6b-c324-4404-a1a6-b37c5f8276ef"],
+Cell[265026, 5364, 25451, 563, 365, "Output",ExpressionUUID->"4d4b06d9-6d68-415d-85df-902b8f1ced43"]
 }, Open  ]],
-Cell[290628, 5933, 325, 7, 35, "Text",ExpressionUUID->"fd6cbea9-be0b-4d5e-96fd-b4c1e67b946d"]
+Cell[290492, 5930, 325, 7, 35, "Text",ExpressionUUID->"fd6cbea9-be0b-4d5e-96fd-b4c1e67b946d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[290990, 5945, 233, 4, 54, "Subsection",ExpressionUUID->"7d5a03bb-0758-4142-bf22-d72ee4f75b95"],
-Cell[291226, 5951, 376, 7, 35, "Text",ExpressionUUID->"90789070-d820-4506-bcbf-9ec8f29bb752"],
+Cell[290854, 5942, 233, 4, 54, "Subsection",ExpressionUUID->"7d5a03bb-0758-4142-bf22-d72ee4f75b95"],
+Cell[291090, 5948, 376, 7, 35, "Text",ExpressionUUID->"90789070-d820-4506-bcbf-9ec8f29bb752"],
 Cell[CellGroupData[{
-Cell[291627, 5962, 1799, 49, 127, "Input",ExpressionUUID->"acfa5930-e2e7-474f-8ad9-59ad0519041a"],
-Cell[293429, 6013, 85941, 1704, 600, "Output",ExpressionUUID->"7a3a47c9-806b-4932-bc75-65423b9767d5"]
+Cell[291491, 5959, 1799, 49, 127, "Input",ExpressionUUID->"acfa5930-e2e7-474f-8ad9-59ad0519041a"],
+Cell[293293, 6010, 85806, 1701, 600, "Output",ExpressionUUID->"7a3a47c9-806b-4932-bc75-65423b9767d5"]
 }, Open  ]],
-Cell[379385, 7720, 5211, 146, 171, "Input",ExpressionUUID->"da9edadb-38e3-4987-a01d-f5bd9ff6a3ae"],
+Cell[379114, 7714, 5211, 146, 171, "Input",ExpressionUUID->"da9edadb-38e3-4987-a01d-f5bd9ff6a3ae"],
 Cell[CellGroupData[{
-Cell[384621, 7870, 282, 5, 28, "Input",ExpressionUUID->"e2528b9a-2fdc-4cc4-b70e-f355e54fdb35"],
-Cell[384906, 7877, 23764, 527, 356, "Output",ExpressionUUID->"bf8135b5-ec21-486c-9ab5-faaae6da73b8"]
+Cell[384350, 7864, 282, 5, 28, "Input",ExpressionUUID->"e2528b9a-2fdc-4cc4-b70e-f355e54fdb35"],
+Cell[384635, 7871, 23764, 527, 356, "Output",ExpressionUUID->"bf8135b5-ec21-486c-9ab5-faaae6da73b8"]
 }, Open  ]],
-Cell[408685, 8407, 397, 8, 58, "Text",ExpressionUUID->"3524990b-8f62-478b-b1e0-5165781ab000"],
+Cell[408414, 8401, 397, 8, 58, "Text",ExpressionUUID->"3524990b-8f62-478b-b1e0-5165781ab000"],
 Cell[CellGroupData[{
-Cell[409107, 8419, 236, 4, 45, "Subsubsection",ExpressionUUID->"3ff6a2e5-5050-40c1-ba02-5fd3799ed490"],
-Cell[409346, 8425, 1485, 39, 127, "Input",ExpressionUUID->"eaca6140-4c1f-4919-b540-cf5a36a7bc83"],
+Cell[408836, 8413, 236, 4, 45, "Subsubsection",ExpressionUUID->"3ff6a2e5-5050-40c1-ba02-5fd3799ed490"],
+Cell[409075, 8419, 1485, 39, 127, "Input",ExpressionUUID->"eaca6140-4c1f-4919-b540-cf5a36a7bc83"],
 Cell[CellGroupData[{
-Cell[410856, 8468, 1557, 36, 68, "Input",ExpressionUUID->"9870ad38-db6f-48cd-9e33-8606580a0d51"],
-Cell[412416, 8506, 22816, 453, 362, "Output",ExpressionUUID->"95e6eb54-3484-49fa-b1fa-f565241caed5"]
+Cell[410585, 8462, 1557, 36, 68, "Input",ExpressionUUID->"9870ad38-db6f-48cd-9e33-8606580a0d51"],
+Cell[412145, 8500, 22816, 453, 362, "Output",ExpressionUUID->"95e6eb54-3484-49fa-b1fa-f565241caed5"]
 }, Open  ]],
-Cell[435247, 8962, 432, 8, 35, "Text",ExpressionUUID->"e003f9ec-bb1b-45d8-9628-8c4362828e15"]
+Cell[434976, 8956, 432, 8, 35, "Text",ExpressionUUID->"e003f9ec-bb1b-45d8-9628-8c4362828e15"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[435728, 8976, 166, 3, 67, "Section",ExpressionUUID->"ec8e09df-7b70-4d33-9ce4-f6fad8572201"],
-Cell[435897, 8981, 547, 10, 58, "Text",ExpressionUUID->"cc1705ec-b1a8-47cc-b586-07479c56ddbe"],
+Cell[435457, 8970, 166, 3, 67, "Section",ExpressionUUID->"ec8e09df-7b70-4d33-9ce4-f6fad8572201"],
+Cell[435626, 8975, 547, 10, 58, "Text",ExpressionUUID->"cc1705ec-b1a8-47cc-b586-07479c56ddbe"],
 Cell[CellGroupData[{
-Cell[436469, 8995, 2495, 57, 127, "Input",ExpressionUUID->"fd0193d8-d9e3-4f05-91dc-37a8cc0883c2"],
-Cell[438967, 9054, 219940, 4200, 619, "Output",ExpressionUUID->"d6231624-627e-4ccd-b69b-66c19a64abab"]
+Cell[436198, 8989, 2495, 57, 127, "Input",ExpressionUUID->"fd0193d8-d9e3-4f05-91dc-37a8cc0883c2"],
+Cell[438696, 9048, 219940, 4200, 619, "Output",ExpressionUUID->"d6231624-627e-4ccd-b69b-66c19a64abab"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[658944, 13259, 211, 4, 54, "Subsection",ExpressionUUID->"1cabb0e6-fcf4-47e1-bbba-c2bcea806e41"],
+Cell[658673, 13253, 211, 4, 54, "Subsection",ExpressionUUID->"1cabb0e6-fcf4-47e1-bbba-c2bcea806e41"],
 Cell[CellGroupData[{
-Cell[659180, 13267, 1340, 37, 49, "Input",ExpressionUUID->"6fff25c8-fbdd-4f97-87aa-0b139c228b2a"],
-Cell[660523, 13306, 12430, 252, 237, "Output",ExpressionUUID->"c3c405ce-9119-46bd-a8e1-197e5a038374"]
+Cell[658909, 13261, 1340, 37, 49, "Input",ExpressionUUID->"6fff25c8-fbdd-4f97-87aa-0b139c228b2a"],
+Cell[660252, 13300, 12430, 252, 237, "Output",ExpressionUUID->"c3c405ce-9119-46bd-a8e1-197e5a038374"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[673002, 13564, 280, 5, 54, "Subsection",ExpressionUUID->"ea41564b-2487-439c-b68c-ecafaa803af6"],
+Cell[672731, 13558, 280, 5, 54, "Subsection",ExpressionUUID->"ea41564b-2487-439c-b68c-ecafaa803af6"],
 Cell[CellGroupData[{
-Cell[673307, 13573, 1291, 36, 49, "Input",ExpressionUUID->"c2c1ae83-8670-4201-b02e-983a1403a5e0"],
-Cell[674601, 13611, 12357, 252, 237, "Output",ExpressionUUID->"0fedd222-53ec-4336-80d8-55f43479e463"]
+Cell[673036, 13567, 1291, 36, 49, "Input",ExpressionUUID->"c2c1ae83-8670-4201-b02e-983a1403a5e0"],
+Cell[674330, 13605, 12357, 252, 237, "Output",ExpressionUUID->"0fedd222-53ec-4336-80d8-55f43479e463"]
 }, Open  ]],
-Cell[686973, 13866, 263, 6, 35, "Text",ExpressionUUID->"dc780361-d3e7-4e64-9fd7-09b3cd46da9f"]
+Cell[686702, 13860, 263, 6, 35, "Text",ExpressionUUID->"dc780361-d3e7-4e64-9fd7-09b3cd46da9f"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[687285, 13878, 166, 3, 67, "Section",ExpressionUUID->"baa6308c-b0b8-46c0-928e-63b621b0bc3c"],
+Cell[687014, 13872, 166, 3, 67, "Section",ExpressionUUID->"baa6308c-b0b8-46c0-928e-63b621b0bc3c"],
 Cell[CellGroupData[{
-Cell[687476, 13885, 708, 17, 28, "Input",ExpressionUUID->"e520822c-db70-46f0-9395-cdf8e78b08c3"],
-Cell[688187, 13904, 338, 6, 32, "Output",ExpressionUUID->"11e9a7b1-e93b-4f81-a331-e728690bff9c"]
+Cell[687205, 13879, 708, 17, 28, "Input",ExpressionUUID->"e520822c-db70-46f0-9395-cdf8e78b08c3"],
+Cell[687916, 13898, 338, 6, 32, "Output",ExpressionUUID->"11e9a7b1-e93b-4f81-a331-e728690bff9c"]
 }, Open  ]],
-Cell[688540, 13913, 3172, 86, 107, "Input",ExpressionUUID->"d55b6e1f-4a1d-46b9-b191-0e335727ce92"],
+Cell[688269, 13907, 3172, 86, 107, "Input",ExpressionUUID->"d55b6e1f-4a1d-46b9-b191-0e335727ce92"],
 Cell[CellGroupData[{
-Cell[691737, 14003, 388, 6, 28, "Input",ExpressionUUID->"09948497-72e4-41b5-a778-e481bd23dac3"],
-Cell[692128, 14011, 23193, 458, 357, "Output",ExpressionUUID->"f15d309d-0869-403d-be69-74988b8d2478"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[715358, 14474, 1025, 24, 88, "Input",ExpressionUUID->"8f4a50eb-3427-4d69-9cf4-e9b2b19415a9"],
-Cell[716386, 14500, 5052, 103, 560, "Output",ExpressionUUID->"49c1d63f-1be4-44e0-97d9-c27ab93bc593"]
+Cell[691466, 13997, 388, 6, 28, "Input",ExpressionUUID->"09948497-72e4-41b5-a778-e481bd23dac3"],
+Cell[691857, 14005, 23193, 458, 357, "Output",ExpressionUUID->"f15d309d-0869-403d-be69-74988b8d2478"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[721475, 14608, 234, 5, 28, "Input",ExpressionUUID->"6f8fd162-2c07-4314-b161-d613345bb795"],
-Cell[721712, 14615, 544, 12, 59, "Output",ExpressionUUID->"d3b187f3-6b55-4f57-b72f-f3787e798679"]
+Cell[715087, 14468, 1656, 32, 205, "Input",ExpressionUUID->"8f4a50eb-3427-4d69-9cf4-e9b2b19415a9"],
+Cell[716746, 14502, 7155, 131, 230, "Output",ExpressionUUID->"5ad90e4b-5545-4a0d-9602-174d8c415e5e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[723938, 14638, 234, 5, 28, "Input",ExpressionUUID->"6f8fd162-2c07-4314-b161-d613345bb795"],
+Cell[724175, 14645, 571, 13, 35, "Output",ExpressionUUID->"63679329-9c73-49a5-9545-9da021e4564d"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
