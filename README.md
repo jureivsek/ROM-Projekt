@@ -13,7 +13,7 @@ Analiziral bom zadnjih 10 sezon košarkaške lige NBA. Predvsem se bom osredoto�
 6. Kratka video predstavitev projekta
 
 ## Aplikacija v oblaku
--link-
+https://www.wolframcloud.com/obj/5a6b0262-0646-43f2-b5a3-\0311e28060a5
 
 ## Videoposnetek predstavitve
 -link-
